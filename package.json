@@ -1,0 +1,28 @@
+{
+  "name": "bootstrap-portfolio",
+  "version": "1.0.0",
+  "description": "Bootstrap Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch sass:assets/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PatrickPrakash/Bootstrap-Portfolio.git"
+  },
+  "author": "Patrick Prakash",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PatrickPrakash/Bootstrap-Portfolio/issues"
+  },
+  "homepage": "https://github.com/PatrickPrakash/Bootstrap-Portfolio#readme",
+  "devDependencies": {
+    "sass": "^1.40.1"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "autoprefixer": "^10.3.4",
+    "bootstrap": "^5.1.1",
+    "postcss-cli": "^8.3.1"
+  }
+}
