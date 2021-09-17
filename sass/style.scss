@@ -11,3 +11,12 @@
   background-color: $body-color;
 }
 
+@include media-breakpoint-down(sm) {
+  .resume {
+    display: none;
+  }
+}
+
+.resume {
+  max-width: 968px;
+}

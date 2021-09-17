@@ -11126,4 +11126,13 @@ textarea.form-control-lg {
   background-color: #fcfcfc;
 }
 
+@media (max-width: 575.98px) {
+  .resume {
+    display: none;
+  }
+}
+.resume {
+  max-width: 968px;
+}
+
 /*# sourceMappingURL=style.css.map */
