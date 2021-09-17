@@ -10,9 +10,9 @@ $body-color: #fcfcfc;
 
 $font: "Poppins", sans-serif;
 
-@use "../node_modules/bootstrap/scss/bootstrap.scss" with (
+@forward "../node_modules/bootstrap/scss/bootstrap.scss" with (
   //Color Overrides
-  // $primary: $container-color,
+  //$primary: $container-color,
   //Font Overrides
   $font-family-sans-serif: $font
 );

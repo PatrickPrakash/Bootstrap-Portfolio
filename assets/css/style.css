@@ -11113,6 +11113,11 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+@media (min-width: 576px) {
+  .bottom-nav {
+    display: none;
+  }
+}
 .nav-shadow-mb {
   box-shadow: 0 1px 4px black;
 }
