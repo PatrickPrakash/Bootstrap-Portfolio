@@ -11113,11 +11113,6 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-@media (min-width: 576px) {
-  .bottom-nav {
-    display: none;
-  }
-}
 .nav-shadow-mb {
   box-shadow: 0 1px 4px black;
 }
@@ -11126,13 +11121,51 @@ textarea.form-control-lg {
   background-color: #fcfcfc;
 }
 
-@media (max-width: 575.98px) {
-  .resume {
+@media (min-width: 576px) {
+  .mobile-nav {
     display: none;
   }
 }
-.resume {
-  max-width: 968px;
+.offcanvas-bottom {
+  height: 40vh;
+}
+
+.home-icons {
+  padding: unset;
+}
+
+.njan-profile-pic {
+  height: 150px;
+}
+
+@media (min-width: 576px) {
+  .resume-container__mobile {
+    display: none;
+  }
+}
+.home__bottom {
+  padding-top: 2em;
+}
+
+.home__bottom__info__address {
+  margin-bottom: 1em;
+}
+.home__bottom__info__address box-icon {
+  margin-right: 1em;
+}
+
+.home__bottom__info__email {
+  margin-bottom: 1em;
+}
+.home__bottom__info__email box-icon {
+  margin-right: 1em;
+}
+
+.home__bottom__info__phone {
+  margin-bottom: 1em;
+}
+.home__bottom__info__phone box-icon {
+  margin-right: 1em;
 }
 
 /*# sourceMappingURL=style.css.map */

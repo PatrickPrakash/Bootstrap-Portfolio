@@ -1,2 +1,33 @@
-@use '../custom' as *;
+@use "../custom" as *;
 
+//List of home section info elements
+$profile-info: address, email, phone;
+
+.home-icons {
+  padding: unset;
+}
+
+.njan-profile-pic {
+  height: 150px;
+}
+
+//Media Queries
+
+@include media-breakpoint-up(sm) {
+  .resume-container__mobile {
+    display: none;
+  }
+}
+
+.home__bottom {
+  padding-top: 2em;
+}
+
+@each $info in $profile-info {
+  .home__bottom__info__#{($info)} {
+    box-icon {
+      margin-right: 1em;
+    }
+    margin-bottom: 1em;
+  }
+}
