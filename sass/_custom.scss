@@ -12,7 +12,7 @@ $font: "Poppins", sans-serif;
 
 @forward "../node_modules/bootstrap/scss/bootstrap.scss" with (
   //Color Overrides
-  // $primary: $container-color,
+  //$primary: $container-color,
   //Font Overrides
   $font-family-sans-serif: $font
 );
