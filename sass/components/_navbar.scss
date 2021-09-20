@@ -1,0 +1,22 @@
+// Mobile Navigation Styles
+@use "../custom" as *;
+
+.nav-shadow-mb {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 1);
+}
+
+.bg-nav {
+  background-color: $body-color;
+}
+
+@include media-breakpoint-up(sm) {
+  .mobile-nav {
+    display: none;
+  }
+}
+
+.offcanvas-bottom {
+  height: 40vh;
+}
+
+// End Mobile Navigation Styles

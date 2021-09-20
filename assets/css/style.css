@@ -11121,4 +11121,13 @@ textarea.form-control-lg {
   background-color: #fcfcfc;
 }
 
+@media (min-width: 576px) {
+  .mobile-nav {
+    display: none;
+  }
+}
+.offcanvas-bottom {
+  height: 40vh;
+}
+
 /*# sourceMappingURL=style.css.map */

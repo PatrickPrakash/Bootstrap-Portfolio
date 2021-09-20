@@ -11,63 +11,94 @@
     <!-- Compiled CSS File -->
   </head>
   <body>
-    <header class="nav"></header>
+    <!-- ===== Resume Container ===== -->
+    <div class="resume-container">
+      <!-- ===== Resume Container Desktop ===== -->
+      <div class="resume-container__desktop">
+        <!-- ===== Resume Desktop Nav Section ===== -->
+        <div class="resume-container__desktop__nav">
 
-    <navbar
-      class="nav-bottom-mb navbar-light bg-nav fixed-bottom p-3 shadow-lg"
-    >
-      <div class="container-fluid d-flex justify-content-between">
-        <span class="text-start"> Patrick Prakash</span>
-        <box-icon name="grid-alt" class=""></box-icon>
+        </div>
+        <!-- End Resume Desktop Nav Section -->
+
+        <!-- ===== Resume Desktop Main Section ===== -->
+        <div class="resume-container__desktop__main">
+
+        </div>
+        <!-- End Resume Desktop Main Section -->
       </div>
-    </navbar>
+      <!-- End Resume Container Desktop -->
+      <div class="resume-container__mobile"></div>
+      <!-- Resume Container Mobile -->
+      <div class="mobile-resume-container"></div>
+      <!-- End Resume Container Mobile -->
+    </div>
+    <!-- End Resume Container -->
 
-    <div
-      class="offcanvas.show offcanvas-bottom"
-      tabindex="-1"
-      id="offcanvas"
-      aria-labelledby="offcanvasLabel"
-    >
-      <div class="offcanvas-header"></div>
-      <div class="offcanvas-body">
-        <div class="container">
-          <div class="row py-1">
-            <div class="col-4 d-flex flex-column align-items-center">
-              <box-icon name="home"></box-icon>
-              <p >Home</p>
-            </div>
-            <div class="col-4 d-flex flex-column align-items-center">
-              <box-icon name="user" color='#b2b2b2'></box-icon>
-              <p class="text-black-50">Profile</p>
-            </div>
-            <div class="col-4 d-flex flex-column align-items-center">
-              <box-icon name="book" color='#b2b2b2'></box-icon>
-              <p class="text-black-50">Education</p>
-          </div>
+    <!-- ===== Mobile Nav Bar====== -->
+    <div class="mobile-nav">
+      <navbar
+        class="nav-bottom-mb navbar-light bg-nav fixed-bottom p-3 shadow-lg"
+      >
+        <div class="container-fluid d-flex justify-content-between">
+          <span class="text-start"> Patrick Prakash</span>
+          <box-icon name="grid-alt" class=""></box-icon>
         </div>
-        <div class="row py-1">
-          <div class="col-4 d-flex flex-column align-items-center">
-            <box-icon name='notepad' color='#b2b2b2'></box-icon>
-            <p class="text-black-50">Skills</p>
-          </div>
-          <div class="col-4 d-flex flex-column align-items-center">
-            <box-icon name='briefcase' color='#b2b2b2'></box-icon>
-            <p class="text-black-50">Experience</p>
-          </div>
-          <div class="col-4 d-flex flex-column align-items-center">
-            <box-icon name='medal' color='#b2b2b2'></box-icon>
-            <p class="text-black-50">Certificates</p>
-          </div>
-        </div>
+      </navbar>
 
-        <div class="row py-1">
-          <div class="col-4 d-flex flex-column align-items-center">
-            <box-icon name='link-external' color='#b2b2b2' class="align-items-center"></box-icon>
-            <p class="align-items-center text-black-50">References</p>
+      <div
+        class="offcanvas.show offcanvas-bottom"
+        tabindex="-1"
+        id="offcanvas"
+        aria-labelledby="offcanvasLabel"
+      >
+        <div class="offcanvas-header"></div>
+        <div class="offcanvas-body">
+          <div class="container">
+            <div class="row py-1">
+              <div class="col-4 d-flex flex-column align-items-center">
+                <box-icon name="home"></box-icon>
+                <p>Home</p>
+              </div>
+              <div class="col-4 d-flex flex-column align-items-center">
+                <box-icon name="user" color="#b2b2b2"></box-icon>
+                <p class="text-black-50">Profile</p>
+              </div>
+              <div class="col-4 d-flex flex-column align-items-center">
+                <box-icon name="book" color="#b2b2b2"></box-icon>
+                <p class="text-black-50">Education</p>
+              </div>
+            </div>
+            <div class="row py-1">
+              <div class="col-4 d-flex flex-column align-items-center">
+                <box-icon name="notepad" color="#b2b2b2"></box-icon>
+                <p class="text-black-50">Skills</p>
+              </div>
+              <div class="col-4 d-flex flex-column align-items-center">
+                <box-icon name="briefcase" color="#b2b2b2"></box-icon>
+                <p class="text-black-50">Experience</p>
+              </div>
+              <div class="col-4 d-flex flex-column align-items-center">
+                <box-icon name="medal" color="#b2b2b2"></box-icon>
+                <p class="text-black-50">Certificates</p>
+              </div>
+            </div>
+
+            <div class="row py-1">
+              <div class="col-4 d-flex flex-column align-items-center">
+                <box-icon
+                  name="link-external"
+                  color="#b2b2b2"
+                  class="align-items-center"
+                ></box-icon>
+                <p class="align-items-center text-black-50">References</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
+    <!-- End Mobile Nav Bar -->
 
     <!-- The box icons component -->
     <script src="https://unpkg.com/boxicons@2.0.9/dist/boxicons.js"></script>
