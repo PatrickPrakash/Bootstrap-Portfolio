@@ -11130,4 +11130,42 @@ textarea.form-control-lg {
   height: 40vh;
 }
 
+.home-icons {
+  padding: unset;
+}
+
+.njan-profile-pic {
+  height: 150px;
+}
+
+@media (min-width: 576px) {
+  .resume-container__mobile {
+    display: none;
+  }
+}
+.home__bottom {
+  padding-top: 2em;
+}
+
+.home__bottom__info__address {
+  margin-bottom: 1em;
+}
+.home__bottom__info__address box-icon {
+  margin-right: 1em;
+}
+
+.home__bottom__info__email {
+  margin-bottom: 1em;
+}
+.home__bottom__info__email box-icon {
+  margin-right: 1em;
+}
+
+.home__bottom__info__phone {
+  margin-bottom: 1em;
+}
+.home__bottom__info__phone box-icon {
+  margin-right: 1em;
+}
+
 /*# sourceMappingURL=style.css.map */
