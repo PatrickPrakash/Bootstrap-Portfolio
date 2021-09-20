@@ -3,6 +3,8 @@
 //List of home section info elements
 $profile-info: address, email, phone;
 
+$socials: instagram, twitter, linkedln;
+
 .home-icons {
   padding: unset;
 }
@@ -29,5 +31,14 @@ $profile-info: address, email, phone;
       margin-right: 1em;
     }
     margin-bottom: 1em;
+  }
+}
+
+@each $social in $socials {
+  .home__bottom__social__item__#{($social)} {
+    box-icon {
+      margin-right: 1em;
+    }
+    margin-bottom: 0.5m;
   }
 }
