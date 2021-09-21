@@ -1,1 +1,10 @@
 @use '../custom' as *;
+
+.skills {
+  padding-top: 2em;
+}
+
+.skills__list {
+  margin-right: 0;
+  margin-left: 0;
+}

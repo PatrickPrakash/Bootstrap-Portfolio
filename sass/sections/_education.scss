@@ -5,8 +5,12 @@ $education: bachelors, diploma, x;
 @each $edu in $education {
   .education__card__#{($edu)} {
     border-left: 2px solid black;
+    position: relative;
     .degree {
       padding-top: 1em;
+    }
+    .year {
+      margin-bottom: 0;
     }
     padding-left: 1.5em;
   }
@@ -17,7 +21,7 @@ $education: bachelors, diploma, x;
     width: 16px;
     height: 16px;
     border-radius: 50px;
-    left: 0.4em;
+    left: -0.6em;
     background: rgb(180, 180, 180);
     border: 2px solid #000000;
   }
