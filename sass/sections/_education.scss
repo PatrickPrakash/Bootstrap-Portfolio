@@ -1,9 +1,10 @@
-@use '../custom' as *;
+@use "../custom" as *;
+@use "../components/mixins" as *;
 
 $education: bachelors, diploma, x;
 
 @each $edu in $education {
-  .education__card__#{($edu)} {
+  .education__card--#{($edu)} {
     border-left: 2px solid black;
     position: relative;
     .degree {
@@ -15,14 +16,7 @@ $education: bachelors, diploma, x;
     padding-left: 1.5em;
   }
 
-  .education__card__#{($edu)}::before {
-    content: "";
-    position: absolute;
-    width: 16px;
-    height: 16px;
-    border-radius: 50px;
-    left: -0.6em;
-    background: rgb(180, 180, 180);
-    border: 2px solid #000000;
+  .education__card--#{($edu)}::before {
+    @include bdr-with-circle-on-top;
   }
 }
