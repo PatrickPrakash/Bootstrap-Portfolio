@@ -4,7 +4,8 @@
   "description": "Bootstrap Portfolio",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "sass --watch sass:assets/css"
+    "compile:sass": "sass --watch sass:assets/css",
+    "build": "sass sass:assets/css"
   },
   "repository": {
     "type": "git",
