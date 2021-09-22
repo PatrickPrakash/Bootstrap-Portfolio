@@ -1,7 +1,22 @@
 @use "custom" as *;
 
+@use "./components/mixins" as *;
+
 @forward "./components/global";
 @forward "./sections/global";
+
+$sections: profile, skills, references, education, certificates, languages,
+  interests, experience;
+
+@each $sec in $sections {
+  .#{($sec)} {
+    .sec-head {
+      @include letter-spacing-2;
+      font-weight: bolder;
+    }
+    padding-bottom: 2em;
+  }
+}
 
 .resume-container__mobile__main {
   padding-bottom: 5em;

@@ -1,4 +1,4 @@
-@use '../custom' as *;
+@use "../custom" as *;
 
 @mixin bdr-with-circle-on-top {
   content: "";
@@ -7,6 +7,10 @@
   height: 16px;
   border-radius: 50px;
   left: -0.6em;
-  background: rgb(180, 180, 180);
-  border: 2px solid #000000;
+  background: rgb(197, 196, 196);
+  border: 2px solid #646464;
+}
+
+@mixin letter-spacing-2 {
+  letter-spacing: 0.2em;
 }

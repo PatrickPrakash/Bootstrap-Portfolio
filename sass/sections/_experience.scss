@@ -5,7 +5,7 @@ $companies: company-1, company-2;
 
 @each $cmpny in $companies {
   .experience__card--#{($cmpny)} {
-    border-left: 2px solid black;
+    border-left: 2px solid #646464;
     position: relative;
 
     padding-left: 1.5em;

@@ -1,4 +1,6 @@
 @use "../custom" as *;
+@use "../components/typography" as *;
+@use "../components/mixins" as *;
 
 //List of home section info elements
 $profile-info: address, email, phone;
@@ -30,6 +32,9 @@ $socials: instagram, twitter, linkedln;
     box-icon {
       margin-right: 1em;
     }
+    span {
+      color: $text-home-info-clr;
+    }
     margin-bottom: 1em;
   }
 }
@@ -41,4 +46,8 @@ $socials: instagram, twitter, linkedln;
     }
     margin-bottom: 0.5m;
   }
+}
+
+.social-txt {
+  @include letter-spacing-2;
 }
