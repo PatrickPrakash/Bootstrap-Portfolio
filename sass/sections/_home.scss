@@ -13,13 +13,17 @@ $socials: instagram, twitter, linkedln;
 
 .njan-profile-pic {
   height: 150px;
+  width: 150px;
 }
 
 //Media Queries
 
 @include media-breakpoint-up(sm) {
-  .resume-container__mobile {
-    display: none;
+  // .resume-container__mobile {
+  //   display: none;
+  // }
+  .resume-container__mobile__nav {
+    display:none;
   }
 }
 
