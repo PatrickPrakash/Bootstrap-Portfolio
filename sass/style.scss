@@ -25,3 +25,13 @@ $sections: profile, skills, references, education, certificates, languages,
 .resume-container {
   max-width: 964px;
 }
+
+@include media-breakpoint-up(lg) {
+  .nav-bottom-mb {
+    display: none;
+  }
+
+  .resume-left-section {
+    background-color: lightcyan;
+  }
+}

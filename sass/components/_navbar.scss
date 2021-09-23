@@ -9,11 +9,7 @@
   background-color: $body-color;
 }
 
-@include media-breakpoint-up(lg) {
-  .nav-bottom-mb {
-    display: none;
-  }
-}
+
 
 .offcanvas-bottom {
   height: 40vh;
