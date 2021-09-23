@@ -21,3 +21,7 @@ $sections: profile, skills, references, education, certificates, languages,
 .resume-container__mobile__main {
   padding-bottom: 5em;
 }
+
+.resume-container {
+  max-width: 964px;
+}

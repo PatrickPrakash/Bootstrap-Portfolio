@@ -9,8 +9,8 @@
   background-color: $body-color;
 }
 
-@include media-breakpoint-up(sm) {
-  .mobile-nav {
+@include media-breakpoint-up(lg) {
+  .nav-bottom-mb {
     display: none;
   }
 }
