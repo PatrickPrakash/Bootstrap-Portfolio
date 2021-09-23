@@ -22,29 +22,17 @@
     <meta property="og:url" content="https://www.patts.live" />
     <!-- Open Graph Tags -->
   </head>
-  <body>
+  <body class="d-flex flex-column align-items-center ">
     <!-- ===== Resume Container ===== -->
-    <div class="resume-container">
-      <!-- ===== Resume Container Desktop ===== -->
-      <div class="resume-container__desktop">
-        <!-- ===== Resume Desktop Nav Section ===== -->
-        <div class="resume-container__desktop__nav"></div>
-        <!-- End Resume Desktop Nav Section -->
+    <div class="resume-container shadow-lg my-lg-5 data-bs-spy="scroll"
+    data-bs-target="#nav-mb-offcanvas"">
+      <!-- ====== Resume Responsive ====== -->
 
-        <!-- ===== Resume Desktop Main Section ===== -->
-        <div class="resume-container__desktop__main"></div>
-        <!-- End Resume Desktop Main Section -->
-      </div>
-      <!-- End Resume Container Desktop -->
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-3">
 
-      <!-- ====== Resume Container Mobile ===== -->
-      <div
-        class="resume-container__mobile container-fluid"
-        data-bs-spy="scroll"
-        data-bs-target="#nav-mb-offcanvas"
-      >
-        <div class="resume-container__mobile__main">
-          <!-- ===== Home section ===== -->
+                      <!-- ===== Home section ===== -->
           <section id="home" class="home">
             <div class="home__upper row justify-content-between">
               <box-icon name="download" class="m-3 col-1 home-icons"></box-icon>
@@ -237,7 +225,11 @@
             </div>
           </section>
           <!-- End Skills Section -->
-          <!-- ===== Experience Section ===== -->
+
+          </div>
+          <div class="col-sm-12 col-md-12 col-lg-8 ">
+
+               <!-- ===== Experience Section ===== -->
           <section id="experience" class="experience">
             <p
               class="
@@ -252,7 +244,7 @@
               Experience
             </p>
             <div
-              class="experience__cards d-flex flex-column align-items-center"
+              class="experience__cards d-flex flex-column align-items-start"
             >
               <div class="experience__card--company-1">
                 <p class="experience__position">Software Dev</p>
@@ -408,36 +400,44 @@
               </div>
             </div>
           </section>
+
+          </div>
         </div>
+      </div>
 
-        <div class="resume-container__mobile__nav">
-          <!-- ===== Mobile Nav Bar====== -->
-          <div class="mobile-nav">
+      <!-- End Resume Responsive -->
+       </div>
+    <!-- End Resume Container -->
+
+            <!-- ====== Navbar ====== -->
             <navbar
-              class="
-                nav-bottom-mb
-                navbar-light
-                bg-nav
-                fixed-bottom
-                p-3
-                shadow-lg
-              "
-            >
-              <div class="container-fluid d-flex justify-content-between">
-                <span class="text-start"> Patrick Prakash</span>
+            class="
+              nav-bottom-mb
+              navbar-light
+              bg-nav
+              fixed-bottom
+              p-3
+              shadow-lg
+            "
+          >
+            <div class="container-fluid d-flex justify-content-between">
+              <span class="text-start"> Patrick Prakash</span>
 
-                <button
-                  class="btn grid-btn"
-                  type="button"
-                  data-bs-toggle="offcanvas"
-                  data-bs-target="#offcanvas"
-                  aria-controls="offcanvas"
-                >
-                  <box-icon name="grid-alt"></box-icon>
-                </button>
-              </div>
-            </navbar>
+              <button
+                class="btn grid-btn"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvas"
+                aria-controls="offcanvas"
+              >
+                <box-icon name="grid-alt"></box-icon>
+              </button>
+            </div>
+          </navbar>
+            <!-- End Navbar -->
 
+   
+            <!-- ====== Off Canvas ====== -->
             <div
               class="offcanvas offcanvas-bottom"
               data-bs-backdrop="false"
@@ -512,14 +512,8 @@
                 </div>
               </div>
             </div>
-          </div>
+            <!-- End Offcanvas -->
 
-          <!-- End Mobile Nav Bar -->
-        </div>
-      </div>
-      <!-- End Resume Container Mobile -->
-    </div>
-    <!-- End Resume Container -->
 
     <!-- The box icons component -->
     <script src="https://unpkg.com/boxicons@2.0.9/dist/boxicons.js"></script>
